@@ -1,0 +1,19 @@
+{
+  "name": "KAIRO Coffee",
+  "short_name": "KAIRO",
+  "description": "Café de especialidad en un espacio minimalista diseñado para inspirarte.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1c1917",
+  "theme_color": "#1c1917",
+  "orientation": "portrait-primary",
+  "categories": ["food", "lifestyle"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='80' fill='%231c1917'/><text x='256' y='340' font-size='256' text-anchor='middle' fill='white'>☕</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
