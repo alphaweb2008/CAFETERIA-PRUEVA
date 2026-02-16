@@ -1,0 +1,115 @@
+import { MenuItem } from '../types';
+
+export const categories = [
+  { id: 'all', name: 'Todo', icon: '✨' },
+  { id: 'cafe', name: 'Café', icon: '☕' },
+  { id: 'postres', name: 'Postres', icon: '🥐' },
+  { id: 'desayuno', name: 'Desayuno', icon: '🍳' },
+  { id: 'otros', name: 'Otros', icon: '📦' },
+];
+
+export const menuItems: MenuItem[] = [
+  // Café
+  {
+    id: 'cafe-1',
+    name: 'Espresso Clásico',
+    description: 'Shot doble de espresso con crema natural. Origen: Colombia.',
+    price: 3.50,
+    category: 'cafe',
+    image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=400&fit=crop',
+    popular: true,
+  },
+  {
+    id: 'cafe-2',
+    name: 'Latte Vainilla',
+    description: 'Espresso con leche vaporizada y sirope de vainilla artesanal.',
+    price: 5.50,
+    category: 'cafe',
+    image: 'https://images.unsplash.com/photo-1534778101976-62847782c213?w=400&h=400&fit=crop',
+    popular: true,
+  },
+  {
+    id: 'cafe-3',
+    name: 'Cappuccino',
+    description: 'Espresso, leche vaporizada y espuma sedosa. Arte latte incluido.',
+    price: 4.80,
+    category: 'cafe',
+    image: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=400&fit=crop',
+  },
+  {
+    id: 'cafe-4',
+    name: 'Americano',
+    description: 'Espresso diluido en agua caliente. Suave y aromático.',
+    price: 3.80,
+    category: 'cafe',
+    image: 'https://images.unsplash.com/photo-1551030173-122aabc4489c?w=400&h=400&fit=crop',
+  },
+  // Postres
+  {
+    id: 'postres-1',
+    name: 'Croissant Mantequilla',
+    description: 'Croissant de mantequilla francesa horneado cada mañana.',
+    price: 3.50,
+    category: 'postres',
+    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=400&h=400&fit=crop',
+    popular: true,
+  },
+  {
+    id: 'postres-2',
+    name: 'Brownie Chocolate',
+    description: 'Brownie de chocolate belga con nueces.',
+    price: 4.00,
+    category: 'postres',
+    image: 'https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=400&h=400&fit=crop',
+  },
+  {
+    id: 'postres-3',
+    name: 'Cheesecake',
+    description: 'Cheesecake cremoso con base de galleta y frutos rojos.',
+    price: 5.50,
+    category: 'postres',
+    image: 'https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=400&h=400&fit=crop',
+  },
+  {
+    id: 'postres-4',
+    name: 'Muffin Arándanos',
+    description: 'Muffin esponjoso con arándanos frescos orgánicos.',
+    price: 3.80,
+    category: 'postres',
+    image: 'https://images.unsplash.com/photo-1509365390695-33aee754301f?w=400&h=400&fit=crop',
+  },
+  // Desayuno
+  {
+    id: 'desayuno-1',
+    name: 'Tostada Aguacate',
+    description: 'Pan sourdough con aguacate, huevo poché y semillas.',
+    price: 8.50,
+    category: 'desayuno',
+    image: 'https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=400&h=400&fit=crop',
+    popular: true,
+  },
+  {
+    id: 'desayuno-2',
+    name: 'Bowl Açaí',
+    description: 'Açaí blend con granola artesanal, frutas frescas y miel.',
+    price: 9.00,
+    category: 'desayuno',
+    image: 'https://images.unsplash.com/photo-1590301157890-4810ed352733?w=400&h=400&fit=crop',
+  },
+  {
+    id: 'desayuno-3',
+    name: 'Sandwich Club',
+    description: 'Pan brioche, pollo, bacon, lechuga, tomate y mayo casera.',
+    price: 9.50,
+    category: 'desayuno',
+    image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400&h=400&fit=crop',
+  },
+  {
+    id: 'desayuno-4',
+    name: 'Wrap Vegetal',
+    description: 'Wrap integral con verduras frescas y hummus.',
+    price: 8.00,
+    category: 'desayuno',
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=400&fit=crop',
+  },
+];
