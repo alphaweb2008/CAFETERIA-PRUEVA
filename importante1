@@ -1,0 +1,48 @@
+Información del Proyecto:
+Repositorio: https://github.com/alphaweb2008/CAFETERIA-PRUEVA/tree/main/CAFETERIA%20PRUEVA
+Tipo: Sitio web para cafetería minimalista moderna
+Stack: React + Vite + TypeScript + Tailwind CSS + Firebase
+Firebase:
+Proyecto: cafeteria-prueva-d085e
+Firestore Database: Activa (modo producción)
+Colecciones: menuItems, config, reservations, categories
+Estructura:
+text
+
+src/
+├── components/
+│   ├── admin/AdminPanel.tsx    — Panel de administración
+│   ├── home/                   — Componentes de la página principal
+│   │   ├── BusinessInfo.tsx    — Info del negocio, horarios, contacto
+│   │   ├── HeroBanner.tsx      — Banner principal
+│   │   └── ReservationForm.tsx — Formulario de reservas
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── MenuView.tsx            — Menú público con filtros
+│   └── InstallBanner.tsx       — Banner PWA para instalar app
+├── context/AppContext.tsx      — Estado global + conexión Firebase
+├── firebase/
+│   ├── config.ts               — Credenciales Firebase
+│   └── services.ts             — Funciones CRUD de Firestore
+├── data/menu.ts                — Categorías y productos por defecto
+└── types/index.ts              — Tipos TypeScript
+Categorías del Menú (4):
+cafe — ☕ Café
+postres — 🥐 Postres
+desayuno — 🍳 Desayuno
+otros — 📦 Otros
+Panel Admin:
+Acceso: Click en el candado 🔒 del header
+Contraseña: admin123
+Funciones: Gestionar menú, reservas, configuración del negocio, sección "Nosotros"
+PWA:
+El sitio es instalable como app en móvil/desktop
+El logo del admin se usa como ícono de la app
+Deploy:
+Netlify: Conectado al repo de GitHub
+Cada git push actualiza automáticamente
+Para continuar cambios:
+Clona el repo o pídeme que lea los archivos del GitHub
+Dime qué cambios necesitas
+Haré los cambios y te daré el código actualizado
+Haz git push para actualizar Netlify
